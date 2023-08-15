@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musab's Portfolio website</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js" integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+</head>
+
+<body>
+
+    <!-- ------------Header------------ -->
+    <nav>
+
+        <ul class="nav-ul">
+            <!-- <img class="logo" src="img/Musab Logo png1.png" alt=""> -->
+            <a href="#profile">
+                <li class="nav-li" >Profile</li>
+            </a>
+            <a href="#About">
+                <li class="nav-li">About</li>
+            </a>
+            <a href="#Education">
+                <li class="nav-li">Education</li>
+            </a>
+            <a href="#Certificates">
+                <li class="nav-li">Certificates</li>
+            </a>
+            <a href="#Projects">
+                <li class="nav-li">Projects</li>
+            </a>
+            <a href="#ContactMe">
+                <li class="nav-li">Contact Me</li>
+            </a>
+
+        </ul>
+    </nav>
+    <div class="header-text" id="header-text">
+        <!-- <p class="webtxt"><span><</span>Web-Developer <span></></span>  </p> -->
+        <h1>Hi, I'm <span class="name">Muhammad Musab</span><br><pre>            Front-end Web Developer</pre></h1>
+        <!-- --------------button CV------------- -->
+        <a href="https://drive.google.com/file/d/1NOq4WEamOnhzszUNmIgAHFKbElNFTkLZ/view?usp=sharing" download>
+            <button class="cv-btn">
+                <i class="fas fa-download"></i> Download My CV
+            </button>
+        </a>
+        <!-- ---------------------button contact----------------- -->
+        <a href="https://wa.me/+923351918921" download>
+            <button class="contact-btn">
+                <i class="fa-brands fa-whatsapp"></i>Contact Me
+            </button>
+        </a>
+    </div>
+    <!-- -----------Header end---------- -->
+
+    
+    <!-- ----------About---------- -->
+    <div id="About">
+        <div class="About_container">
+            <div class="row">
+
+                <div class="about-col-1">
+                    <img src="img/dp png.png" width="100%" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="aboutme">About Me</h1>
+                    <p class="aboutpara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores soluta
+                        recusandae possimus doloremque consequatur sint impedit maxime illum placeat repudiandae
+                        quisquam nemo quibusdam, laboriosam culpa dolores veniam aut quidem dolorem.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick = "opentab('skills')">Skills</p>
+                            <p class="tab-links active-link"  onclick = "opentab('experience')">Experience </p>
+                            <p class="tab-links active-link"  onclick = "opentab('projects')">Projects</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li ><span>UI/UX</span><br>Designing Web interfaces</li>
+                                <li><span>Web Development</span><br>Coding in Front-End</li>
+                                <li><span>Video Editing</span><br>Making the best effect and cuts</li>
+                            </ul>
+                        </div>
+                        <!-- <hr class="hrmobile"> -->
+                        <div class="tab-contents active-tabexp"   id="experience">
+                            <ul>
+                                <li ><span>May 2023 - current</span><br>Made different projects in Training <br> A program by Prime Minister <br>youth skills development</li>
+                                <li><span>February 2023 - May 2023 </span><br>FYP Of BSCS made Front-endUsing <br> TailwindCSS</li>
+                                <li><span>Video Editing</span><br>Making the best effect and cuts <br> Experienced  since 2018</li>
+                            </ul>
+                        </div>
+                        <!-- <hr class="hrmobile"> -->
+                        <div class="tab-contents active-tabpro" id="projects">
+                            <ul>
+                                <li ><span>Life Serve Online Pharmacy</span><br>Front-End Designed through CSS Framework Tailwind</li>
+                                <li><span>Portfolio website</span><br>Coding in Front-End</li>
+                                <li><span>Video Editing</span><br>Making the best effect and cuts</li>
+                            </ul>
+                        </div>
+                        <!-- <hr class="hrmobile"> -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+
+    <!-- <div class="container">
+        <div class="row">
+            <div class="progress mb-3">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                    style="width: 90%;">HTML</div>
+            </div>
+            <div class="progress mb-3">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                    style="width: 90%;">HTML</div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!-- ----------About End---------- -->
+
+    <!-- ----------------------Education----------------- -->
+    <div class="edbg">
+        <h1 class="eh">Education History</h1>
+        <hr class="ed-his-hr">
+        <div class="ed" id="Education">
+
+
+            <h3 class="bscs">BS Computer Science  (2019-2023) <br>
+                <span class="uop">University Of Agriculture Peshawar</span>
+            </h3>
+            <hr class="firstEd">
+            <br><br><br><br><br><br><br><br>
+            <h3 class="fsc">FSC Computer Science  (2017-2019) <br>
+                <span class="uop">Peshawar Model Degree College</span>
+            </h3>
+            <hr class="seEd">
+
+            <br><br><br><br><br><br><br><br><br><br>
+            <h3 class="matric">Matric  (2016-2017) <br>
+                <span class="uop">Peshawar Model School</span>
+            </h3>
+
+        </div>
+    </div>
+
+
+
+<!-- --------------------Certificates--------------------- -->
+    <div class="cert" id="Certificates">
+        <h1 class="cer"> Certificates</h1>
+        <div class="grid">
+            <h3 class="intro">Introduction to Cybersecurity Tools & Cyber Attacks</h3>
+            <a href="target_blank"><img class="introcyber"
+                    src="img/Introduction to Cybersecurity Tools & Cyber Attacks.jpeg" alt=""></a>
+
+            <h3 class="intro">Cybersecurity Roles, Processes & Operating System Security</h3>
+            <a href=""><img class="introcyber" src="img/CERTIFICATE_LANDING_PAGE~564FQWMT54VA.jpeg" alt=""></a>
+        </div>
+    </div>
+
+    <!-- -----------------Projects----------------- -->
+    <div class="pr" id="Projects">
+        <h2 class="projects">Projects</h2>
+        <hr class="projectshr">
+        <a href="https://muhammadmusab9.github.io/Medicine-store-using-Tailwind-css/"> <img class="tail"
+                src="img/Screenshot 2023-07-17 233230.png" alt=""></a>
+        <a href="https://muhammadmusab9.github.io/musabrepository/"><img class="navs"
+                src="img/Screenshot 2023-07-18 001218 navs.png" alt=""></a>
+    </div>
+    <hr class="cert-hr">
+
+    <!-- --------------------contact----------------- -->
+    <div class="cm" id="ContactMe">
+        <a href="https://www.gmail.com">
+            <h2 class="details"><box-icon name='envelope'></box-icon>
+              muhammadmusab9@gmail.com
+            </h2>
+        </a>
+        <a href="https://wa.me/+923351918921">
+            <h2 class="details"><box-icon name='contact' type='solid' ></box-icon>
+              03351918921
+            </h2>
+        </a>
+
+        <a href="https://www.google.com/maps/place/WAPDA+Town+Peshawar+Office/@34.0195442,71.7399678,16.58z/data=!4m6!3m5!1s0x38d93ab9731a7d7b:0x5ef832f63d5d9aa9!8m2!3d34.0195234!4d71.7430996!16s%2Fg%2F11cp5zy_45?entry=ttu">
+            <h2 class="details"><box-icon name='current-location' ></box-icon>
+                Wapda town, Nowshera.
+            </h2>
+        </a>
+        <div class="social">
+            <a href="https://www.facebook.com/"><img class="icon-s" src="img/facebook.svg" alt=""></a>
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Den"><img class="icon-s"
+                    src="img/twitter.svg" alt=""></a>
+            <a href="https://github.com/"><img class="icon-s" src="img/github.svg" alt=""></a>
+            
+        </div>
+        <p class="contact-allright">Made By Muhammad Musab</p>
+    </div>
+
+    <!-- -------------------javascript------------------
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classlist.remove("active-link");
+            }
+            
+            for(tabcontent of tabcontents){
+                tabcontent.classlist.remove("active-tab");
+            }
+            event.currentTarget.classlist.add("active-link");
+            document.getElementById(tabname).classlist.add("active-tab");
+        }
+    </script> -->
+</body>
+
+</html>
